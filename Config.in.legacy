@@ -185,6 +185,12 @@ config BR2_PACKAGE_KODI_PERIPHERAL_STEAMCONTROLLER
 	help
 	  This package is broken.
 
+config BR2_PACKAGE_WESTON_IMX
+	bool "weston-imx package was removed"
+	select BR2_LEGACY
+	help
+	  This package has been removed, use weston instead.
+
 comment "Legacy options removed in 2020.05"
 
 config BR2_PACKAGE_WIRINGPI
