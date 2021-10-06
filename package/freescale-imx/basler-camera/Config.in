@@ -1,0 +1,4 @@
+config BR2_PACKAGE_BASLER_CAMERA
+	bool "basler-camera"
+	help
+	  Basler daA3840 camera binary blobs for Verisilicon ISP.
