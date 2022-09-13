@@ -4,10 +4,10 @@
 #
 ################################################################################
 
-IMX_VPU_HANTRO_VERSION = 1.22.0
+IMX_VPU_HANTRO_VERSION = 1.25.0
 IMX_VPU_HANTRO_SITE = $(FREESCALE_IMX_SITE)
 IMX_VPU_HANTRO_SOURCE = imx-vpu-hantro-$(IMX_VPU_HANTRO_VERSION).bin
-IMX_VPU_HANTRO_DEPENDENCIES = linux
+IMX_VPU_HANTRO_DEPENDENCIES = linux linux-imx-headers
 IMX_VPU_HANTRO_INSTALL_STAGING = YES
 
 IMX_VPU_HANTRO_MAKE_ENV = \
