@@ -15,7 +15,7 @@ COG_CONF_OPTS = \
 	-Ddocumentation=false \
 	-Dmanpages=false \
 	-Dprograms=true \
-	-Dsoup2=true \
+	-Dsoup2=enabled \
 	-Dcog_home_uri='$(call qstrip,$(BR2_PACKAGE_COG_PROGRAMS_HOME_URI))' \
 	-Dplatforms='$(subst $(space),$(comma),$(strip $(COG_PLATFORMS_LIST)))'
 
